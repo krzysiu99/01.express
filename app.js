@@ -8,7 +8,7 @@ const pageArticle = require('./pages/article');
 //lista podstron
 app.use('/', pageMain);
 app.use('/about', pageAbout);
-app.use('/article', pageArticle);
+app.use('/article', pageArticle); 
 
 //aktywacja aplikacji
 app.listen(8080, function(){ 
